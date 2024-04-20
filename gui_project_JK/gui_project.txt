@@ -1,0 +1,19 @@
+Projekt: Ein Programm zum Zusammenfügen mehrerer Bilder erstellen.
+
+[Benutzerszenerio]
+1. Der Benuzter wählt ein oder mehrere Bilder aus, die zusammengefügt werden sollen.
+2. Der Speicherpfad für das zusammengefügte Bild wird festgelegt.
+3. Breite-, Abstand-, Formatoptionen werden ausgewählt.
+4. Durch Drücken der Starttaste werden die Bilder zusammengefügt.
+5. Das Programm wird durch Drücken der Schließen-Taste beendet.
+
+[Funktionsbeschreibung]
+1. Datei hinzufügen : Dateien zur Listbox hinzufügen
+2. Auswahl löschen : Ausgewählte Einträge aus der Listbox löschen
+3. Durchsuchen : Auswahl eines Speicherordners wird im Textwidget eingegeben
+4. Breite : Bildbreite festlegen (Original, 1024, 800, 640)
+5. Abstand : Abstand zwischen den Bildern festlegen (Kein, Schmal, Normal, Breit)
+6. Foramt : Format des gespeicherten Bildes festlegen (PNG, JPG, BMP)
+7. Start : Ausführung der Bildzusammenführung
+8. Fortschritt : Aktuellen Fortschritt entsprechend der Reihenfolge der gerade verarbeiteten Dateien anzeigen
+9. Schließen : Programm beenden
