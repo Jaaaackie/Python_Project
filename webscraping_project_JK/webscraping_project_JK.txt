@@ -1,0 +1,31 @@
+Projekt : einen persönlichen Assistenten mit Web-Scraping erstellen
+
+[Bedingungen]
+1. die Wetterinformationen für heute aus "weather.com"
+2. die zwei wichtigsten Nachrichten des Tages aus "news.google.com"
+3. die drei Nachrichten aus dem Bereich Wisschenschaft & Technik aus "news.google.com"
+
+[Ausgabebeispiel]
+
+[Wetter heute]
+Wetterbericht in {Ort}, die aktuelle Uhrzeit {}
+Jetzt 00℃ (Tagsüber 00℃ / Nacht 00℃)
+
+Warnung
+
+[Top 2 Nachrichten heute]
+1. Titel
+(Link : https://...)
+
+2. Titel
+(Link : https://...)
+
+[Wisschenschaft & Technik Nachrichten]
+1. Titel
+(Link : https://...)
+
+2. Titel
+(Link : https://...)
+
+3. Titel
+(Link : https://...)
