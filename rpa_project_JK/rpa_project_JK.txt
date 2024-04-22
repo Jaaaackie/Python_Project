@@ -1,0 +1,26 @@
+Project: Ein Pytonkurs wird für Abonnenten angeboten.
+Die Teilnahme kann per E-Mail beantragt werden,
+und nur die ersten drei Personen, die sich anmelden, werden nach der Reihenfolge des E-Mail-Eingangs ausgewählt.
+E-Mails, die bestimmten kriterien entsprechen, werden automatisch durchsucht,
+und ausgewählte Personen erhalten eine Auswahl-Benachrichtigungs-E-Mail,
+während diejenigen, die nicht ausgewählt wurden, automatisch eine Wartelisten-Benachrichtigungs-E-Mail erhalten.
+Ein RPA-Programm wird erstellt, um die Liste der drei ausgewählten Personen in einer Excel-Datei zu speichern.
+
+[Anmeldungsformat]
+Titel : Anmeldung zum Pythonkurs
+Inhalt : Name/letzten 4 Ziffern der Kontaktnummer (Random)
+    (Bsp) JK/1234
+
+[Auswahlbenachrichtigungs-E-Mail]
+Titel : Hinweis zum Pythonkurs [Ausgewählt]
+Inhalt : Herzlichen Glückwunsch, Herr/Frau XX. Sie wurden als Teilnehmer für den Kurs ausgewählt. (Auswahlreihenfolge Nr. 1)
+
+[Absagebenachrichtigungs-E-Mail]
+Titel : Hinweis zum Pythonkurs [Nicht ausgewählt]
+Inhalt : Leider wurden Sie, Herr/Frau XX, nicht ausgewählt. Sollten Absagen eintreffen, werden wir Sie kontaktieren. (Wartelistenreihenfolge Nr. 1)
+
+[Ausgewählte Liste in Excel]
+Reiihenfolge Name Kontaktnummer
+ 1           Caesar  3724
+ 2           Dora    5929
+ 3           Emil    3812
